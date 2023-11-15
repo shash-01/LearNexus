@@ -1,0 +1,56 @@
+body{
+    background:linear-gradient(90deg, rgb(91, 12, 91),rgb(0, 0, 0));
+   
+}
+.srch
+{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-1
+{
+margin-top: 250px;
+display:flex;
+justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+img{
+    margin-top: 600px;
+    height:200px;
+    width:200px;
+    margin:30px;
+    border:1px solid transparent;
+    box-shadow: 4px 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+   
+}
+img:hover{
+    cursor: pointer;
+    transition: width 0.4s,height 0.4s ease-out ;
+   width:230px;
+    height:230px;
+    
+    
+    
+}
+img:hover::after
+{
+    
+}
+
+input{
+    width:600px;
+    height:25px;
+    border:transparent;
+    border-bottom: 2px solid rgb(202, 192, 230);
+    padding:5px;
+    background: none;
+    outline:none;
+    color:rgb(255, 255, 255);
+    transform: scaleX(1);
+    
+}
